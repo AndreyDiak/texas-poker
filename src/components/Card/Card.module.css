@@ -1,0 +1,33 @@
+.card {
+   height: 150px;
+   width: 100px;
+   position: relative;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: aliceblue;
+   border-radius: 8px;
+   font-family: system-ui;
+}
+
+.value {
+   position: absolute;
+   font-weight: 700;
+   font-size: 32px;
+   letter-spacing: -2px;
+}
+
+.valueTop {
+   top: -5px;
+   left: 5px;
+}
+
+.valueBottom {
+   bottom: -5px;
+   right: 5px;
+}
+
+.suit {
+   font-weight: normal;
+   font-size: 28px;
+}
